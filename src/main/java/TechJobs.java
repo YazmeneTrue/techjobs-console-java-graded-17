@@ -124,11 +124,11 @@ public class TechJobs {
             return;
         }
         for (HashMap<String, String> job : someJobs) {
-            System.out.println("*****");
+            System.out.println("\n*****");
             for (String key : job.keySet()) {
                 System.out.println(key + ": " + job.get(key));
             }
-            System.out.println("*****\n");
+            System.out.println("*****");
         }
        // System.out.println("printJobs is not implemented yet");
     }
